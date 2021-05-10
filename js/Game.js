@@ -97,7 +97,7 @@ class Game {
         title: `Awesome!${"\n"}Rank${"\n"}${player.rank}`,
         text: "You reached the finish line successfully",
         imageUrl:
-          "https://raw.githubusercontent.com/vishalgaddam873/p5-multiplayer-car-race-game/master/assets/cup.png",
+          "https://github.com/Nb27/Car-Race/blob/master/images/cup.png",
         imageSize: "100x100",
         confirmButtonText: "Ok",
       });
