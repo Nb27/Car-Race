@@ -45,7 +45,7 @@ class Game {
     Player.getCarsAtEnd();
     
     if(allPlayers !== undefined){
-      background(rgb(198,135,103));
+      background(rgb(75,75,75));
       image(track, 0,-displayHeight*4,displayWidth, displayHeight*5);
       
       
@@ -91,13 +91,13 @@ class Game {
 
     if(player.distance > 3500){
       gameState = 2;
-      player.rank = Player.getCarsAtEnd+1;
+      player.rank +=1;
       Player.updateCarsAtEnd(player.rank);
       swal({
         title: `Awesome!${"\n"}Rank${"\n"}${player.rank}`,
         text: "You reached the finish line successfully",
         imageUrl:
-          "https://github.com/Nb27/Car-Race/blob/master/images/cup.png",
+          "https://github.com/Nb27/Car-Race/blob/master/images/cup.png?raw=true",
         imageSize: "100x100",
         confirmButtonText: "Ok",
       });
