@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fast and Furious</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+    <script src="sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sweetalert.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
+
+
+    <script>
+      //Your web app's Firebase configuration
+      var firebaseConfig = {
+      apiKey: "AIzaSyDDdpNUPcsaDUPi-KMhj2SLmJrIicHmaWw",
+      authDomain: "car-race-1f382.firebaseapp.com",
+      projectId: "car-race-1f382",
+      storageBucket: "car-race-1f382.appspot.com",
+      messagingSenderId: "583003922294",
+      appId: "1:583003922294:web:f6eb179b296ee21a57e457"
+      };
+      // // Initialize Firebase
+      // firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
